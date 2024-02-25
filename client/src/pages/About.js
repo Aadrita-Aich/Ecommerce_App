@@ -1,10 +1,29 @@
-import React from 'react'
-import Layout from '../components/Layout/Layout';
+import React from "react";
+import Layout from "./../components/Layout/Layout";
 
 const About = () => {
   return (
     <Layout>
-      <h1> About Page</h1>
+      <div className="row contactus ">
+        <div className="col-md-6 ">
+          <img 
+            src="/images/contactus.jpeg"
+            alt="aboutus"
+            style={{ width: "75%" }}
+          />
+        </div>
+        <div className="col-md-4">
+          <p className="text-justify mt-2">
+            text
+            |
+            |
+            |
+            |
+            |
+            text
+          </p>
+        </div>
+      </div>
     </Layout>
   );
 };
